@@ -18,6 +18,18 @@
               </router-link>  
             </li>
 
+            <li class="nav-item">
+              <router-link to="/tabla">
+                <a class="nav-link" href="#">Tabla</a>
+              </router-link>  
+            </li>
+
+            <li class="nav-item">
+              <router-link to="/choice">
+                <a class="nav-link" href="#">Choice</a>
+              </router-link>  
+            </li>
+
           </ul>
 
         </div>

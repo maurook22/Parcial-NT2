@@ -4,35 +4,10 @@
 
     <div class="jumbotron">
 
-      <form novalidate autocomplete="off" @submit.prevent="ingresar()">
-
-      <div class="form-group">
-        <label for="nombre">Usuario</label>
-          <input 
-            type="text"
-            id="usuario"
-            class="form-control"
-            placeholder="Ingrese su usuario"
-            v-model="usuario"
-          >
-      </div>
-
-      <div class="form-group">
-        <label for="password">Password</label>
-          <input 
-            type="password"
-            id="password"
-            class="form-control"
-            placeholder="Ingrese su password"
-            v-model="password"
-          >
-      </div>
-
-      <div v-if="datosOK" class="alert alert-warning">Datos incorrectos</div>
-
-      <button class="btn btn-primary" type="submit">Ingresar</button>
-
-      </form>
+      <h1 class="my-3"><u>PARCIAL NT2</u></h1>
+      <h2>Profesor: Daniel Sanchez</h2>
+      <h3>Alumno: Abraham Mauro</h3>
+      <h3>Fecha: 28/10/20</h3>
 
     </div>
 
@@ -81,5 +56,9 @@
 
   }
 
+  .jumbotron{
+    background-color:#430049;
+    color: white
+  }
 
 </style>
